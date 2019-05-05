@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "16898147-cfeb-42f7-80d3-313a9845b859",
+            "Value": {
+                "id": "2d85ecdb-4501-4fa2-b0ad-e121343e65b5",
+                "resourcePath": "sprites\\spr_heroe\\spr_heroe.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1fbb13b1-e74f-4db7-a308-edc0878f3621",
             "Value": {
                 "id": "1a900d17-cc40-4660-adfe-c29a9ca7f52a",
@@ -95,6 +103,14 @@
             }
         },
         {
+            "Key": "6163c360-4386-44e1-8638-f116069de14f",
+            "Value": {
+                "id": "7d89d52f-d6a4-4668-bb4e-a186f1897e36",
+                "resourcePath": "objects\\obj_boton\\obj_boton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6470525f-497b-4593-9a0e-2c72a54e94d3",
             "Value": {
                 "id": "0dd50e06-8c3e-4a8e-9285-5f3eb9bfef14",
@@ -111,6 +127,14 @@
             }
         },
         {
+            "Key": "68ce6b1b-6447-400e-9278-28727603310f",
+            "Value": {
+                "id": "b6d1b81f-d12a-4245-924f-5af836e646e7",
+                "resourcePath": "sprites\\spr_portal\\spr_portal.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "70b78192-f48d-422b-97f4-17be850064f7",
             "Value": {
                 "id": "e16a8efb-c9ac-4766-8b11-de4f46281bea",
@@ -124,6 +148,22 @@
                 "id": "601c8112-17f0-44e9-8bc6-78ede246ad75",
                 "resourcePath": "rooms\\room_level2\\room_level2.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "7bbd4628-92fc-4af5-baa7-120977e1b924",
+            "Value": {
+                "id": "83510b40-0d60-41d2-9d44-c6c4447a1bf3",
+                "resourcePath": "objects\\obj_portal\\obj_portal.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "81109c34-7c0d-4c53-b917-0cf64870b8dc",
+            "Value": {
+                "id": "d0ec3999-3604-4d14-9cff-2e5c1b572741",
+                "resourcePath": "objects\\obj_tile_generator\\obj_tile_generator.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -151,6 +191,14 @@
             }
         },
         {
+            "Key": "9c330c4a-33cb-4c22-b07c-7b349e4d1159",
+            "Value": {
+                "id": "b17e910e-166f-47fe-8fb2-fc6561b0fe46",
+                "resourcePath": "sprites\\spr_box\\spr_box.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a0f39a10-731f-4435-b0d6-38c30b6f6616",
             "Value": {
                 "id": "b8c1b388-d026-4cb6-93d7-b939b41108db",
@@ -164,6 +212,14 @@
                 "id": "87b2bd69-12e4-449e-bc68-39ffaac6f06d",
                 "resourcePath": "views\\a427c085-dc33-4749-ad85-8a6bccf3688d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a72a9541-00a6-4115-8ea5-1fec49454d6c",
+            "Value": {
+                "id": "eea42347-e817-41dd-90e7-36418f1f473c",
+                "resourcePath": "objects\\obj_box\\obj_box.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -204,6 +260,22 @@
                 "id": "26a41e14-c43c-485f-88db-4528a114fe25",
                 "resourcePath": "tilesets\\tileset_gloomfall_dungeon\\tileset_gloomfall_dungeon.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "e2d2f232-9503-4ce6-a16f-5096d245e691",
+            "Value": {
+                "id": "4b53c3aa-94aa-41f8-b13c-e4947e01f00e",
+                "resourcePath": "objects\\obj_heroe\\obj_heroe.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e52451aa-bf6b-4e8f-938a-cc0292472afc",
+            "Value": {
+                "id": "72c1d8af-4dac-4803-97de-3cac9882c192",
+                "resourcePath": "sprites\\spr_boton\\spr_boton.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
