@@ -2,7 +2,7 @@
 {
     "name": "room_level3",
     "id": "a0f39a10-731f-4435-b0d6-38c30b6f6616",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,

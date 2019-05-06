@@ -57,6 +57,7 @@ if place_meeting(x, y + 1, obj_box)
 {
     var box = instance_place(x, y + 1, obj_box);
 	with (box) {
+		audio_play_sound(snd_moving, 10, false);
 		y += 5;
 	}
 }  
@@ -71,17 +72,22 @@ if place_meeting(x, y - 1, obj_box)
 
 if place_meeting(x, y, obj_bullet)
 {
+	audio_play_sound(snd_hit, 10, false);
 	health -= 25;
 	effect_create_above(ef_spark,x,y,20,c_white)
 }
 if place_meeting(x, y, obj_final_boss)
 {
+	audio_play_sound(snd_hit, 10, false);
 	health -= 50;
 	effect_create_above(ef_spark,x,y,20,c_white)
 }
 if health == 0
+{
+	audio_stop_all();
+	audio_play_sound(snd_die, 10, false);
 	room_restart();
-
+}
 if (keyboard_check(vk_right) || keyboard_check(vk_left) || keyboard_check(vk_down) || keyboard_check(vk_up)) 
 {
 	if (keyboard_check(vk_down)) {
