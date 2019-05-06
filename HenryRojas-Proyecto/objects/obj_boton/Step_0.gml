@@ -2,5 +2,5 @@
 // You can write your code in this editor
 if collision_circle(x, y, 0, obj_box, true, true ) 
 {
-		
+	instance_create_layer(room_width/2, room_height/2, layer_get_id("hero_enemies_box"), obj_portal);
 }

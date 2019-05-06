@@ -42,7 +42,7 @@ if place_meeting(x + 1, y, obj_box)
 {
     var box = instance_place(x + 1, y, obj_box);
 	with (box) {
-		x += 1;
+		x += 5;
 	}
 }  
 
@@ -50,14 +50,14 @@ if place_meeting(x - 1, y, obj_box)
 {
     var box = instance_place(x - 1, y, obj_box);
 	with (box) {
-		x -= 1;
+		x -= 5;
 	}
 }
 if place_meeting(x, y + 1, obj_box)
 {
     var box = instance_place(x, y + 1, obj_box);
 	with (box) {
-		y += 1;
+		y += 5;
 	}
 }  
 
@@ -65,6 +65,40 @@ if place_meeting(x, y - 1, obj_box)
 {
     var box = instance_place(x, y - 1, obj_box);
 	with (box) {
-		y -= 1;
+		y -= 5;
 	}
-} 
+}
+
+if place_meeting(x, y, obj_bullet)
+{
+	health -= 25;
+	effect_create_above(ef_spark,x,y,20,c_white)
+}
+if place_meeting(x, y, obj_final_boss)
+{
+	health -= 50;
+	effect_create_above(ef_spark,x,y,20,c_white)
+}
+if health == 0
+	room_restart();
+
+if (keyboard_check(vk_right) || keyboard_check(vk_left) || keyboard_check(vk_down) || keyboard_check(vk_up)) 
+{
+	if (keyboard_check(vk_down)) {
+		sprite_index = spr_heroe_down;
+	}
+	
+	if (keyboard_check(vk_right)) {
+		sprite_index = spr_hero_right
+	}
+	
+	if (keyboard_check(vk_up)) {
+		sprite_index = spr_heroe_up;
+	}
+	
+	if (keyboard_check(vk_left)) {
+		sprite_index = spr_hero_left;
+	}
+} else {
+	sprite_index = spr_heroe;
+}
