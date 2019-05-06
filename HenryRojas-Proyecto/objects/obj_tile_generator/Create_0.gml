@@ -4,7 +4,7 @@
  * @since 1.0.0
  * @copyright MIT
  */
-ground_layer = layer_create(10);
+ground_layer = layer_create(100);
 ground_tile = layer_tilemap_create(ground_layer, 0, 0, tileset_gloomfall_dungeon, room_width, room_height);
 
 x_temp = 0;
